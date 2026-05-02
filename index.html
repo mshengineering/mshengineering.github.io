@@ -64,6 +64,19 @@
       border-radius: 8px;
     }
 
+    .card-content {
+  display: flex;
+  align-items: center; /* vertical alignment */
+  gap: 15px; /* space between image and text */
+}
+
+.profile-img {
+  width: 80px;  /* adjust size */
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%; /* makes it circular */
+}
+
     /* SECCIONES */
     section {
       margin-bottom: 2.5rem;
@@ -141,9 +154,19 @@
   </div>
 </section>
 
-
 <section>
   <h2>Contact Information</h2>
+
+
+  <div class="card">
+  <div class="card-content">
+    <img src="foto_cv.jpeg" alt="Miguel Sofo Haro" class="profile-img">
+    <div>
+      <h3>Team</h3>
+      <p>Miguel Sofo Haro, PhD. 15 years of experience in research and development.</p>
+    </div>
+  </div>
+</div>
 
   <div class="card">
     <h3>Team</h3>
